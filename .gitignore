@@ -1,0 +1,45 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Data (raw, large files)
+data/raw/
+*.csv
+*.zip
+*.parquet
+*.feather
+
+# Model weights
+*.h5
+*.pt
+*.pth
+*.joblib
+*.pickle
+*.pkl
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Environment / secrets
+.env
+*.env
+*.key
+*.secret
+config.json
+
+# VSCode
+.vscode/
